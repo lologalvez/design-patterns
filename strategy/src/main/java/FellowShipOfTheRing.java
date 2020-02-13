@@ -17,6 +17,10 @@ public class FellowShipOfTheRing {
         this.fellowList.add(fellow);
     }
 
+    public void expelFellow(MiddleEarthling fellow) {
+        this.fellowList.remove(fellow);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -31,4 +35,5 @@ public class FellowShipOfTheRing {
     public int hashCode() {
         return fellowList != null ? fellowList.hashCode() : 0;
     }
+
 }

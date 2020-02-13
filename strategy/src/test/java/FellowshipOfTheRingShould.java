@@ -18,4 +18,18 @@ public class FellowshipOfTheRingShould {
         Assert.assertEquals(expectedFellowship, fellowShip);
     }
 
+    @Test
+    public void be_able_to_remove_fellows() {
+        FellowShipOfTheRing fellowShip = new FellowShipOfTheRing();
+        MiddleEarthling frodo = new Hobbit("Frodo");
+        List<MiddleEarthling> fellowList = new ArrayList<MiddleEarthling>();
+        FellowShipOfTheRing expectedFellowship = new FellowShipOfTheRing(fellowList);
+
+        fellowShip.addFellow(frodo);
+        fellowShip.expelFellow(frodo);
+
+        Assert.assertEquals(expectedFellowship, fellowShip);
+
+    }
+
 }
