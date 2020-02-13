@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0ad0ec9-0f93-4c80-8eaa-66773980466b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1XkMLdyQBklYzWym6xbCuZL8do9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="FellowFactory" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FellowshipOfTheRingShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strategy" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FellowshipOfTheRingShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FellowshipOfTheRingShould" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0ad0ec9-0f93-4c80-8eaa-66773980466b" name="Default Changelist" comment="" />
+      <created>1581585585087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581585585087</updated>
+    </task>
+    <task id="LOCAL-00001" summary="feat: initial project setup">
+      <created>1581585695539</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581585695539</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add fellows to fellowship">
+      <created>1581591174149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581591174149</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: expel fellows from Fellowship">
+      <created>1581591335553</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581591335553</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add paySalary implementation for Men using Strategy pattern">
+      <created>1581600784468</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581600784468</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add paySalary implementation for Dwarves and Hobbits using Strategy pattern">
+      <created>1581602308971</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581602308971</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add paySalary implementation for Dwarves and Hobbits using Strategy pattern">
+      <created>1581602318893</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581602318893</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: initial project setup" />
+    <MESSAGE value="feat: add fellows to fellowship" />
+    <MESSAGE value="feat: expel fellows from Fellowship" />
+    <MESSAGE value="feat: add paySalary implementation for Elf using Strategy pattern" />
+    <MESSAGE value="feat: add paySalary implementation for Men using Strategy pattern" />
+    <MESSAGE value="feat: add paySalary implementation for Dwarves and Hobbits using Strategy pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add paySalary implementation for Dwarves and Hobbits using Strategy pattern" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="489" y="107" key="#com.intellij.ide.util.MemberChooser" timestamp="1581601154762">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="489" y="107" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1581601154762" />
+    <state x="446" y="294" width="548" height="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581593990983">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="446" y="294" width="548" height="324" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1581593990983" />
+    <state x="224" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581594040008">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="224" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1581594040008" />
+    <state x="395" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581590744405">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="395" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1581590744405" />
+    <state x="239" y="0" key="CommitChangelistDialog2" timestamp="1581602318818">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="239" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581602318818" />
+    <state width="1386" height="222" key="GridCell.Tab.0.bottom" timestamp="1581602604033">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1386" height="222" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581602604033" />
+    <state width="1386" height="222" key="GridCell.Tab.0.center" timestamp="1581602604030">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1386" height="222" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581602604030" />
+    <state width="1386" height="222" key="GridCell.Tab.0.left" timestamp="1581602604029">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1386" height="222" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581602604029" />
+    <state width="1386" height="222" key="GridCell.Tab.0.right" timestamp="1581602604032">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1386" height="222" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581602604032" />
+    <state x="421" y="96" width="597" height="704" key="RefactorJ.ExtractClass" timestamp="1581590202077">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="96" width="597" height="704" key="RefactorJ.ExtractClass/0.0.1440.900@0.0.1440.900" timestamp="1581590202077" />
+    <state x="0" y="51" key="new project wizard" timestamp="1581602602196">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="51" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1581602602196" />
+    <state x="426" y="4" key="refactoring.ChangeSignatureDialog" timestamp="1581594363296">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="426" y="4" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1581594363296" />
+  </component>
+</project>
