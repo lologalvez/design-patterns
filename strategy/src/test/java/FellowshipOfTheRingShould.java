@@ -1,7 +1,4 @@
-import middleEarthling.Elf;
-import middleEarthling.Hobbit;
-import middleEarthling.Man;
-import middleEarthling.MiddleEarthling;
+import middleEarthling.*;
 import org.junit.Assert;
 import org.junit.Test;
 import salary.ElfSalaryStrategy;
@@ -41,7 +38,7 @@ public class FellowshipOfTheRingShould {
     @Test
     public void pay_to_any_elf_100_percent_of_baseSalary() {
         FellowshipOfTheRing fellowShip = new FellowshipOfTheRing();
-        MiddleEarthling legolas = new Elf("legolas");
+        MiddleEarthling legolas = new Elf("Legolas");
         fellowShip.addFellow(legolas);
         Fellow fellowLegolas = fellowShip.find(legolas);
 
@@ -53,7 +50,7 @@ public class FellowshipOfTheRingShould {
     @Test
     public void pay_to_any_man_90_percent_of_baseSalary() {
         FellowshipOfTheRing fellowShip = new FellowshipOfTheRing();
-        MiddleEarthling aragorn = new Man("aragorn");
+        MiddleEarthling aragorn = new Man("Aragorn");
         fellowShip.addFellow(aragorn);
         Fellow fellowAragorn = fellowShip.find(aragorn);
 
@@ -61,6 +58,31 @@ public class FellowshipOfTheRingShould {
 
         Assert.assertEquals(900, fellowAragorn.getBalance());
     }
+
+    @Test
+    public void pay_to_any_dwarf_70_percent_of_baseSalary() {
+        FellowshipOfTheRing fellowShip = new FellowshipOfTheRing();
+        MiddleEarthling gimli = new Dwarf("Gimli");
+        fellowShip.addFellow(gimli);
+        Fellow fellowGimli = fellowShip.find(gimli);
+
+        fellowShip.payFellows();
+
+        Assert.assertEquals(700, fellowGimli.getBalance());
+    }
+
+    @Test
+    public void pay_to_any_dwarf_50_percent_of_baseSalary() {
+        FellowshipOfTheRing fellowShip = new FellowshipOfTheRing();
+        MiddleEarthling frodo = new Hobbit("Frodo");
+        fellowShip.addFellow(frodo);
+        Fellow fellowFrodo = fellowShip.find(frodo);
+
+        fellowShip.payFellows();
+
+        Assert.assertEquals(500, fellowFrodo.getBalance());
+    }
+
 
 
 }

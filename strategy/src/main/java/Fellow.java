@@ -49,4 +49,12 @@ public class Fellow {
         return result;
     }
 
+    @Override
+    public String toString() {
+        return "Fellow{" +
+                "fellow=" + fellow +
+                ", salaryStrategy=" + salaryStrategy +
+                ", balance=" + balance +
+                '}';
+    }
 }

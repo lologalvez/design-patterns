@@ -24,4 +24,11 @@ public abstract class MiddleEarthling {
     public int hashCode() {
         return name != null ? name.hashCode() : 0;
     }
+
+    @Override
+    public String toString() {
+        return "MiddleEarthling{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
