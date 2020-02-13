@@ -1,3 +1,5 @@
+package components;
+
 public class PSU {
     private final String model;
     private final int power;

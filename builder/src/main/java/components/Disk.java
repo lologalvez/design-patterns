@@ -1,3 +1,5 @@
+package components;
+
 public class Disk {
     private String model;
     private String type;

@@ -1,3 +1,7 @@
+package components;
+
+import java.util.Objects;
+
 public class CPU {
     private final String model;
     private final double clock;
@@ -15,7 +19,7 @@ public class CPU {
         CPU cpu = (CPU) o;
 
         if (Double.compare(cpu.clock, clock) != 0) return false;
-        return model != null ? model.equals(cpu.model) : cpu.model == null;
+        return Objects.equals(model, cpu.model);
     }
 
     @Override

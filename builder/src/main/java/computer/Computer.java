@@ -1,22 +1,23 @@
-import java.util.Objects;
+package computer;
+
+import components.*;
 
 public class Computer {
 
-    private final MotherBoard motherboard;
+    private final Motherboard motherboard;
     private final CPU cpu;
     private final RAM ram;
     private final GPU gpu;
     private final PSU psu;
     private final Disk disk;
 
-    public Computer(MotherBoard motherboard, CPU cpu, RAM ram, GPU gpu, PSU psu, Disk disk) {
-
+    public Computer(Motherboard motherboard, CPU cpu, RAM ram, PSU psu, Disk disk, GPU gpu) {
         this.motherboard = motherboard;
         this.cpu = cpu;
         this.ram = ram;
-        this.gpu = gpu;
         this.psu = psu;
         this.disk = disk;
+        this.gpu = gpu;
     }
 
     @Override

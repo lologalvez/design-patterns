@@ -1,7 +1,9 @@
-public class MotherBoard {
+package components;
+
+public class Motherboard {
     private String model;
 
-    public MotherBoard(String model) {
+    public Motherboard(String model) {
         this.model = model;
     }
 
@@ -10,7 +12,7 @@ public class MotherBoard {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        MotherBoard that = (MotherBoard) o;
+        Motherboard that = (Motherboard) o;
 
         return model != null ? model.equals(that.model) : that.model == null;
     }

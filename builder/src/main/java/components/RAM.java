@@ -1,8 +1,11 @@
-public class GPU {
+package components;
+
+public class RAM {
+
     private final String model;
     private final int capacity;
 
-    public GPU(String model, int gigabytes) {
+    public RAM(String model, int gigabytes) {
         this.model = model;
         this.capacity = gigabytes;
     }
@@ -12,10 +15,10 @@ public class GPU {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        GPU gpu = (GPU) o;
+        RAM ram = (RAM) o;
 
-        if (capacity != gpu.capacity) return false;
-        return model != null ? model.equals(gpu.model) : gpu.model == null;
+        if (capacity != ram.capacity) return false;
+        return model != null ? model.equals(ram.model) : ram.model == null;
     }
 
     @Override
