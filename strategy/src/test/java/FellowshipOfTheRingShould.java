@@ -1,7 +1,6 @@
 import middleEarthling.*;
 import org.junit.Assert;
 import org.junit.Test;
-import salary.ElfSalaryStrategy;
 
 import java.util.ArrayList;
 import java.util.List;
