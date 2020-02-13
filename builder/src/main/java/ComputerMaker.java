@@ -1,8 +1,12 @@
 public class ComputerMaker {
 
     private String cpu;
+    private int ramMemory;
 
-    public ComputerMaker() { }
+    public ComputerMaker(String cpuModel, int ramInGB) {
+        this.cpu = cpuModel;
+        this.ramMemory = ramInGB;
+    }
 
     public ComputerMaker(String cpu) {
         this.cpu = cpu;
@@ -10,6 +14,10 @@ public class ComputerMaker {
 
     public void addCPU(String cpuModel) {
         this.cpu = cpuModel;
+    }
+
+    public void addRAM(int ramInGB) {
+        this.ramMemory += ramInGB;
     }
 
     @Override
@@ -26,4 +34,5 @@ public class ComputerMaker {
     public int hashCode() {
         return cpu != null ? cpu.hashCode() : 0;
     }
+
 }
