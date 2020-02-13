@@ -12,7 +12,6 @@ public class ComputerBuilderShould {
         return Stream.of(
                 Arguments.of(new ComputerBuilder().withCPU(new CPU("Ryzen 5 3600", 3.20)).build(),
                         new Computer(null, new CPU("Ryzen 5 3600", 3.20), null, null, null, null))
-                        new Computer(null, new CPU("Ryzen 5 3600", 3.20), null, null, null, null))
         );
     }
 
