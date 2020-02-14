@@ -1,0 +1,15 @@
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+public class YoutubeVideoQueueShould {
+
+    @Test
+    public void be_able_to_get_new_videos_added_to_the_queue() {
+        YoutubeVideoQueue queue = new YoutubeVideoQueue();
+        Video randomVideo = new Video("Random Video");
+        YoutubeVideoQueue expectedQueue = new YoutubeVideoQueue(randomVideo);
+
+        queue.add(randomVideo);
+        Assertions.assertEquals(expectedQueue, queue);
+    }
+}
