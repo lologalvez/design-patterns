@@ -28,6 +28,12 @@ public class YoutubeVideoQueue {
         this.nowPlaying = this.videoQueue.getFirst();
     }
 
+
+    public void next() {
+        this.videoQueue.removeFirst();
+        this.nowPlaying = this.videoQueue.getFirst();
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
