@@ -1,10 +1,10 @@
 import java.util.Objects;
 
-public class Video {
+public class Song {
     private final String videoTitle;
 
-    public Video(String videoTitle) {
-        this.videoTitle = videoTitle;
+    public Song(String songTitle) {
+        this.videoTitle = songTitle;
     }
 
     @Override
@@ -12,9 +12,9 @@ public class Video {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Video video = (Video) o;
+        Song song = (Song) o;
 
-        return Objects.equals(videoTitle, video.videoTitle);
+        return Objects.equals(videoTitle, song.videoTitle);
     }
 
     @Override
