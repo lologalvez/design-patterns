@@ -25,4 +25,19 @@ public class YoutubeVideoQueueShould {
 
         Assertions.assertEquals(expectedQueue, queue);
     }
+
+    @Test
+    public void start_playing_first_video_in_the_queue() {
+        YoutubeVideoQueue queue = new YoutubeVideoQueue();
+        Video randomVideoOne = new Video("Random Video 1");
+        YoutubeVideoQueue expectedQueue = new YoutubeVideoQueue(randomVideoOne);
+
+        queue.add(randomVideoOne);
+        queue.play();
+
+        Assertions.assertEquals(expectedQueue, queue);
+    }
 }
+
+
+

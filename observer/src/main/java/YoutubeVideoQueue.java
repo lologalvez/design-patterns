@@ -1,11 +1,10 @@
 import java.util.LinkedList;
 import java.util.Objects;
-import java.util.Queue;
 
 public class YoutubeVideoQueue {
 
-    private Queue<Video> videoQueue;
-    private Video video;
+    private LinkedList<Video> videoQueue;
+    private Video nowPlaying;
 
     public YoutubeVideoQueue() {
         this.videoQueue = new LinkedList<>();
@@ -14,6 +13,7 @@ public class YoutubeVideoQueue {
     public YoutubeVideoQueue(Video video) {
         this.videoQueue = new LinkedList<>();
         this.videoQueue.add(video);
+        this.nowPlaying = video;
     }
 
     public void add(Video video) {
@@ -22,6 +22,10 @@ public class YoutubeVideoQueue {
 
     public void remove(Video video) {
         this.videoQueue.remove(video);
+    }
+
+    public void play() {
+        this.nowPlaying = this.videoQueue.getFirst();
     }
 
     @Override
