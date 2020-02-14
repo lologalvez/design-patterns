@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d28b9ed-8678-4257-8e57-a284f4c6fa01" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XkuqKGF1DkiNujiWlg5CdbNpkX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ComputerBuilderShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="builder" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ComputerBuilderShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ComputerBuilderShould" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d28b9ed-8678-4257-8e57-a284f4c6fa01" name="Default Changelist" comment="" />
+      <created>1581602602249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581602602249</updated>
+    </task>
+    <task id="LOCAL-00001" summary="feat: addCPU method to add a cpu to ComputerMaker">
+      <created>1581603644532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581603644532</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add memory ram modules to ComputerMaker">
+      <created>1581603891806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581603891806</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: create a new computer with a cpu from builder">
+      <created>1581609651312</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581609651312</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: create a new computer with a cpu from builder">
+      <created>1581609662826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581609662826</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add rule for optional components">
+      <created>1581613228546</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581613228546</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: addCPU method to add a cpu to ComputerMaker" />
+    <MESSAGE value="feat: add memory ram modules to ComputerMaker" />
+    <MESSAGE value="feat: create a new computer with a cpu from builder" />
+    <MESSAGE value="feat: add rule for optional components" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add rule for optional components" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="220" y="34" key="#Project_Structure" timestamp="1581602837996">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="220" y="34" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1581602837996" />
+    <state x="489" y="107" key="#com.intellij.ide.util.MemberChooser" timestamp="1581613131363">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="489" y="107" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1581613131363" />
+    <state x="359" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581610012329">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="359" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1581610012329" />
+    <state x="395" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581610505216">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="395" y="148" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1581610505216" />
+    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1581613228419">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581613228419" />
+    <state width="1386" height="222" key="GridCell.Tab.0.bottom" timestamp="1581671900118">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1386" height="222" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581671900118" />
+    <state width="1386" height="222" key="GridCell.Tab.0.center" timestamp="1581671900117">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1386" height="222" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581671900117" />
+    <state width="1386" height="222" key="GridCell.Tab.0.left" timestamp="1581671900116">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1386" height="222" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581671900116" />
+    <state width="1386" height="222" key="GridCell.Tab.0.right" timestamp="1581671900117">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1386" height="222" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581671900117" />
+    <state x="0" y="51" key="new project wizard" timestamp="1581671898282">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="51" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1581671898282" />
+    <state x="426" y="0" width="610" height="900" key="refactoring.ChangeSignatureDialog" timestamp="1581605899297">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="426" y="0" width="610" height="900" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1581605899297" />
+  </component>
+</project>
