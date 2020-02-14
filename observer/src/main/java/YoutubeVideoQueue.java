@@ -20,6 +20,10 @@ public class YoutubeVideoQueue {
         this.videoQueue.add(video);
     }
 
+    public void remove(Video video) {
+        this.videoQueue.remove(video);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -34,4 +38,5 @@ public class YoutubeVideoQueue {
     public int hashCode() {
         return videoQueue != null ? videoQueue.hashCode() : 0;
     }
+
 }

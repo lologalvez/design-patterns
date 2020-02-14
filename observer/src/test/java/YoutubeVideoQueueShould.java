@@ -10,6 +10,19 @@ public class YoutubeVideoQueueShould {
         YoutubeVideoQueue expectedQueue = new YoutubeVideoQueue(randomVideo);
 
         queue.add(randomVideo);
+
+        Assertions.assertEquals(expectedQueue, queue);
+    }
+
+    @Test
+    public void be_able_to_get_video_removed_from_queue() {
+        YoutubeVideoQueue queue = new YoutubeVideoQueue();
+        Video randomVideo = new Video("Random Video");
+        YoutubeVideoQueue expectedQueue = new YoutubeVideoQueue();
+
+        queue.add(randomVideo);
+        queue.remove(randomVideo);
+
         Assertions.assertEquals(expectedQueue, queue);
     }
 }
