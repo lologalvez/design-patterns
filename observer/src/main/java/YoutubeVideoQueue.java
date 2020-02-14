@@ -28,7 +28,6 @@ public class YoutubeVideoQueue {
         this.nowPlaying = this.videoQueue.getFirst();
     }
 
-
     public void next() {
         this.videoQueue.removeFirst();
         this.nowPlaying = this.videoQueue.getFirst();

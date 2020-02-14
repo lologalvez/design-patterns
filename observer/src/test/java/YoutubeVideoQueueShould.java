@@ -39,7 +39,7 @@ public class YoutubeVideoQueueShould {
     }
 
     @Test
-    public void test() {
+    public void be_able_to_skip_to_next_video() {
         YoutubeVideoQueue queue = new YoutubeVideoQueue();
         Video randomVideoOne = new Video("Random Video 1");
         Video randomVideoTwo = new Video("Random Video 2");
