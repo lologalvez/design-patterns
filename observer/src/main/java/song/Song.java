@@ -1,3 +1,5 @@
+package song;
+
 import java.util.Objects;
 
 public class Song {
@@ -20,5 +22,10 @@ public class Song {
     @Override
     public int hashCode() {
         return videoTitle != null ? videoTitle.hashCode() : 0;
+    }
+
+    @Override
+    public String toString() {
+        return videoTitle;
     }
 }

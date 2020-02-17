@@ -1,8 +1,12 @@
+import display.Observer;
+import song.Song;
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Objects;
 
-public class YoutubeMusicQueue {
+public class YoutubeMusicQueue implements Observable {
 
+    private final ArrayList<Observer> displays;
     private LinkedList<Song> songQueue;
     private Song nowPlaying;
 
@@ -10,6 +14,7 @@ public class YoutubeMusicQueue {
         this.songQueue = new LinkedList<>();
         this.songQueue.add(song);
         this.nowPlaying = song;
+        this.displays = new ArrayList<Observer>();
     }
 
     public void add(Song song) {
@@ -23,6 +28,18 @@ public class YoutubeMusicQueue {
     public void next() {
         this.songQueue.removeFirst();
         this.nowPlaying = this.songQueue.getFirst();
+        this.notifySubscribers();
+    }
+
+    private void notifySubscribers() {
+        for(Observer display: this.displays) {
+            display.update(this.nowPlaying);
+        }
+    }
+
+    public void subscribe(Observer observer) {
+        this.displays.add(observer);
+        observer.update(this.nowPlaying);
     }
 
     public int getQueueSize() {
@@ -43,5 +60,4 @@ public class YoutubeMusicQueue {
     public int hashCode() {
         return songQueue != null ? songQueue.hashCode() : 0;
     }
-
 }
