@@ -1,4 +1,4 @@
-import display.Observer;
+import widgets.Observer;
 import song.Song;
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -6,42 +6,44 @@ import java.util.Objects;
 
 public class YoutubeMusicQueue implements Observable {
 
-    private final ArrayList<Observer> displays;
     private LinkedList<Song> songQueue;
+    private final ArrayList<Observer> widgets;
     private Song nowPlaying;
 
     public YoutubeMusicQueue(Song song) {
         this.songQueue = new LinkedList<>();
         this.songQueue.add(song);
         this.nowPlaying = song;
-        this.displays = new ArrayList<Observer>();
+        this.widgets = new ArrayList<Observer>();
     }
 
-    public void add(Song song) {
-        this.songQueue.add(song);
+    public void subscribe(Observer observer) {
+        this.widgets.add(observer);
+        observer.update(this.nowPlaying);
     }
 
-    public void remove(Song song) {
-        this.songQueue.remove(song);
+    public void unsubscribe(Observer observer) {
+        this.widgets.remove(observer);
     }
 
-    public void next() {
+    public void nextSong() {
         this.songQueue.removeFirst();
         this.nowPlaying = this.songQueue.getFirst();
         this.notifySubscribers();
     }
 
-    private void notifySubscribers() {
-        for(Observer display: this.displays) {
-            display.update(this.nowPlaying);
+    public void notifySubscribers() {
+        for(Observer widget: this.widgets) {
+            widget.update(this.nowPlaying);
         }
     }
 
-    public void subscribe(Observer observer) {
-        this.displays.add(observer);
-        observer.update(this.nowPlaying);
+    public void addSong(Song song) {
+        this.songQueue.add(song);
     }
-
+    public void removeSong(Song song) {
+        this.songQueue.remove(song);
+    }
     public int getQueueSize() {
         return this.songQueue.size();
     }

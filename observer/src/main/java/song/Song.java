@@ -4,9 +4,11 @@ import java.util.Objects;
 
 public class Song {
     private final String videoTitle;
+    private final String band;
 
-    public Song(String songTitle) {
+    public Song(String songTitle, String band) {
         this.videoTitle = songTitle;
+        this.band = band;
     }
 
     @Override
@@ -16,16 +18,19 @@ public class Song {
 
         Song song = (Song) o;
 
-        return Objects.equals(videoTitle, song.videoTitle);
+        if (!Objects.equals(videoTitle, song.videoTitle)) return false;
+        return Objects.equals(band, song.band);
     }
 
     @Override
     public int hashCode() {
-        return videoTitle != null ? videoTitle.hashCode() : 0;
+        int result = videoTitle != null ? videoTitle.hashCode() : 0;
+        result = 31 * result + (band != null ? band.hashCode() : 0);
+        return result;
     }
 
     @Override
     public String toString() {
-        return videoTitle;
+        return videoTitle + " by " + band;
     }
 }
