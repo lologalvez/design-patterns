@@ -1,6 +1,6 @@
 package widgets;
 import song.Song;
 
-public interface Observer {
+public interface CurrentSongObserver {
     void update(Song song);
 }

@@ -3,9 +3,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import song.Song;
 
-import java.net.SocketImpl;
-import java.util.List;
-
 import static org.mockito.Mockito.*;
 
 public class YoutubeMusicQueueShould {
@@ -49,10 +46,10 @@ public class YoutubeMusicQueueShould {
         song.Song randomSongOne = new song.Song("Random Song 1", "Random Band");
         song.Song randomSongTwo = new song.Song("Random Song 2", "Random Band");
         YoutubeMusicQueue queue = new YoutubeMusicQueue(randomSongOne);
-        Observer mockMainWidget = mock(MainWidget.class);
-        Observer mockHistoryWidget = mock(HistoryWidget.class);
-        Observer mockSocialWidget = mock(SocialWidget.class);
-        Observer mockNotificationDrawerWidget = mock(NotificationDrawerWidget.class);
+        CurrentSongObserver mockMainWidget = mock(MainWidget.class);
+        CurrentSongObserver mockHistoryWidget = mock(HistoryWidget.class);
+        CurrentSongObserver mockSocialWidget = mock(SocialWidget.class);
+        CurrentSongObserver mockNotificationDrawerWidget = mock(NotificationDrawerWidget.class);
         queue.subscribe(mockMainWidget);
         queue.subscribe(mockNotificationDrawerWidget);
         queue.subscribe(mockHistoryWidget);

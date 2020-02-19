@@ -1,7 +1,7 @@
-import widgets.Observer;
+import widgets.CurrentSongObserver;
 
 public interface Observable {
-    void subscribe(Observer observer);
-    void unsubscribe(Observer observer);
+    void subscribe(CurrentSongObserver currentSongObserver);
+    void unsubscribe(CurrentSongObserver currentSongObserver);
     void notifySubscribers();
 }

@@ -3,11 +3,11 @@ package song;
 import java.util.Objects;
 
 public class Song {
-    private final String videoTitle;
+    private final String songTitle;
     private final String band;
 
     public Song(String songTitle, String band) {
-        this.videoTitle = songTitle;
+        this.songTitle = songTitle;
         this.band = band;
     }
 
@@ -18,19 +18,19 @@ public class Song {
 
         Song song = (Song) o;
 
-        if (!Objects.equals(videoTitle, song.videoTitle)) return false;
+        if (!Objects.equals(songTitle, song.songTitle)) return false;
         return Objects.equals(band, song.band);
     }
 
     @Override
     public int hashCode() {
-        int result = videoTitle != null ? videoTitle.hashCode() : 0;
+        int result = songTitle != null ? songTitle.hashCode() : 0;
         result = 31 * result + (band != null ? band.hashCode() : 0);
         return result;
     }
 
     @Override
     public String toString() {
-        return videoTitle + " by " + band;
+        return songTitle + " by " + band;
     }
 }
